@@ -1,0 +1,458 @@
+.........
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+
+    <title>Italian Bite</title>
+</head>
+<body>
+  <header class="head">
+    <h1>Italian&nbsp;<i class="fas fa-pizza-slice"></i>&nbsp;Bite</h1>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#menu">Menu</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="side-bar">
+      <i class="fa fa-search" id="search"></i>
+      <i class="fa fa-user" id="user"></i>
+      <i class="fas fa-bars" id="bars"></i>
+      <i class="fa fa-cart-plus" id="cart-plus"></i>
+    </div>
+
+    <form action="#" class="search-bar">
+        <input type="search" name="search" id="1" placeholder="Search Here">
+    </form>
+    
+  </div>
+  <div class="cart">
+    <h2 class="cart-title">Your Cart</h2>
+    <div class="cart-content">
+      <div class="cart-box">
+        <img src="images/pizza/pizza margherita.jpg" alt="" class="cart-img">
+        <div class="detail-box">
+          <div class="cart-product-title">Pizza</div>
+          <div class="cart-price">Rs.120</div>
+          <input type="number" value="1" class="cart-quantity">
+        </div>
+        <i class="fa fa-trash cart-to-remove"></i>
+      </div>
+    </div>
+    <div class="total">
+      <div class="total-title">Total</div>
+      <div class="total-price">Rs0</div>
+    </div>
+    <button type="button" class="btn-buy">Checkout</button>
+    <i class="fa fa-x" id="cart-close"></i>
+  </div>
+  </header>
+
+  <!-----------------------------Home section------------------------->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="inner-content">
+        <h3>Welcome to Italian&nbsp; <i class= "fas fa-pizza-slice"></i>&nbsp;Bite</h3>
+        <p>Whether you're here for a special occasion, a casual meal, or simply to savor the joys of great food, we are here to make your dining experience unforgettable.</p>
+        <a href="#menu"><button class="btn">Menu</button></a>
+      </div>
+      <div class="inner-content-img">
+        <img src="pizza-png-1.png" alt="img">
+      </div>
+    </div>
+  </section>
+</body>
+<!------------------------------about section------------------------------>
+<section class="about" id="about">
+  <h4>About</h4>
+  <div class="about-sec">
+    <div class="img">
+      <img src="about.png" alt="img">
+    </div>
+    <div class="about-content">
+      <h3>Italian Bite</h3>
+      <p>Our menu reflects our commitment to sourcing the finest, locally-sourced ingredients, and infusing them with creativity to produce dishes that tantalize the taste buds.</p>
+      <div class="about-inner">
+        <h5><i class="fas fa-circle-arrow-right"></i>Good Quality</h5>
+        <h5><i class="fas fa-circle-arrow-right"></i>Fresh Vegetable</h5>
+        <h5><i class="fas fa-circle-arrow-right"></i>Available 24Hrs</h5>
+        <h5><i class="fas fa-circle-arrow-right"></i>Best Price </h5>
+        <h5><i class="fas fa-circle-arrow-right"></i>Best Quality</h5>
+      </div>
+      <button class="btn">Read More</button>
+    </div>
+  </div>
+</section>
+<!--------------------------services------------------------->
+<section class="services" id="services">
+  <h4>Services</h4>
+  <div class="service-content">
+    <div class="inner-box">
+      <img src="deliveryboy.jpg" alt="">
+      <h2>Free Delivery</h2>
+      <p>Enjoy the flavors you love, conveniently delivered to your home or office, without any additional delivery charges. </p>
+      <button class="btn">Read More</button>
+    </div>
+    <div class="inner-box">
+      <img src="onlinepay.jpg" alt="">
+      <h2>Online Payment</h2>
+      <p>We strive to make you dining experience as seamless as possible. That's why we offer the convenience of <strong>online payment</strong> for your orders. </p>
+      <button class="btn">Read More</button>
+    </div>
+    <div class="inner-box">
+      <img src="freshfood.jpg" alt="">
+      <h2>Fresh Food</h2>
+      <p>Fresh ingredients not only taste better but are also better for you. Our menu is a fusion of health and taste.</p>
+      <button class="btn">Read More</button>
+    </div>
+  </div>
+</section>
+<!------------------------------menu------------------------->
+<section class="menu" id="menu">
+  <h4>Our Menu</h4>
+  <div class="menu-content">
+    <div id="pizza" class="d-pizza">
+    <p id="category-name">Pizza</p>
+    <div id="item-card">
+      <div id="card-top">
+        <i class="fa fa-star" id="rating">4.3</i>
+      </div>
+      <img src="images/pizza/pizza margherita.jpg">
+      <p id="item-name">Margherita Pizza</p>
+      <p id="item-price">Price: Rs 120</p>
+
+    </div>
+      <div id="item-card">
+        <div id="card-top">
+          <i class="fa fa-star" id="rating">4.3</i>
+        </div>
+        <img src="images/pizza/vegetariana pizza.jpg">
+        <p id="item-name">vegetariana Pizza</p>
+        <p id="item-price">Price: Rs 120</p>
+      </div>
+      <div id="item-card">
+        <div id="card-top">
+          <i class="fa fa-star" id="rating">4.3</i>
+        </div>
+          <img src="images/pizza/mexican pizza.jpg">
+          <p id="item-name">Mexican Pizza</p>
+          <p id="item-price">Price: Rs 120</p>
+        </div>
+        <div id="item-card">
+        <div id="card-top">
+          <i class="fa fa-star" id="rating">4.3</i>
+        </div>
+          <img src="images/pizza/tandoori paneer pizza.jpg">
+          <p id="item-name">Tandoori Pizza</p>
+          <p id="item-price">Price: Rs 120</p>
+        </div>
+      </div>
+      <!------------------burger-------------->
+      <div id="burger" class="d-burger">
+        <p id="category-name">Burger</p>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/burger/aloo tikki burger.jpg">
+            <p id="item-name">Aloo Tikki Burger</p>
+            <p id="item-price">Price: Rs 50</p>
+           
+        </div>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/burger/achari burger.jpg">
+            <p id="item-name">Achari Burger</p>
+            <p id="item-price">Price: Rs 50</p>
+        </div>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/burger/chesse burger.jpg">
+            <p id="item-name">Chesse Burger</p>
+            <p id="item-price">Price: Rs 60</p>
+        </div>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/burger/ib special burger.jpg">
+            <p id="item-name">IB Special Burger</p>
+            <p id="item-price">Price: Rs 60</p>
+        </div>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/burger/veg special burger.jpg">
+            <p id="item-name">Veg Special Burger</p>
+            <p id="item-price">Price: Rs 70</p>
+        </div>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/burger/double dekar.jpg">
+            <p id="item-name">Double Dekar Burger</p>
+            <p id="item-price">Price: Rs 70</p>
+        </div>
+      </div>
+<!---------------Pasta------------------------------------------------------------------------->
+      <div id="pasta" class="d-pasta">
+        <p id="category-name">Pasta</p>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/pasta/white sauce pasta.jpg">
+            <p id="item-name">White Sauce Pasta</p>
+            <p id="item-price">Price: Rs 90</p>
+        </div>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/pasta/red sauce pasta.jpg ">
+            <p id="item-name">Red Sauce Pasta</p>
+            <p id="item-price">Price: Rs 90</p>
+        </div>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/pasta/mix sauce pasta.jpg ">
+            <p id="item-name">Mix Sauce Pasta</p>
+            <p id="item-price">Price: Rs 100</p>
+        </div>
+        <div id="item-card">
+          <div id="card-top">
+            <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+            <img src="images/pasta/makhani sauce pasta.jpg ">
+            <p id="item-name">Makhani Sauce Pasta</p>
+            <p id="item-price">Price: Rs 110</p>
+        </div>
+      </div>
+<!-------------------------Garlic bread---------------------------------->
+      <div id="garlic-bread" class="d-garlic-bread">
+        <p id="category-name">Garlic Bread</p>
+        <div id="item-card">
+          <div id="card-top">
+              <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+              <img src="images/garlic bread/nrml garlic bread.jpg">
+              <p id="item-name">Plain Garlic Bread</p>
+              <p id="item-price">Price: Rs 40</p>
+        </div>   
+        <div id="item-card">
+          <div id="card-top">
+              <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+              <img src="images/garlic bread/stuff garlic bread.jpg ">
+              <p id="item-name">Stuff Garlic Bread</p>
+              <p id="item-price">Price: Rs 50</p>
+        </div>
+        <div id="item-card">
+          <div id="card-top">
+              <i class="fa fa-star" id="rating">4.3</i>
+          </div>
+              <img src="images/garlic bread/cheese garlic bread.jpg">
+              <p id="item-name">Cheese Garlic Bread</p>
+              <p id="item-price">Price: Rs 60</p>
+        </div>
+<!-----------------------------side order-------------------->
+        <div id="side-order" class="d-side-order">
+          <p id="category-name">Side Orders</p>
+          <div id="item-card">
+            <div id="card-top">
+                <i class="fa fa-star" id="rating">4.3</i>
+            </div>
+                <img src="images/side order/french fries.jpg">
+                <p id="item-name">French Fries</p>
+                <p id="item-price">Price: Rs 40</p>
+          </div>   
+          <div id="item-card">
+            <div id="card-top">
+                <i class="fa fa-star" id="rating">4.3</i>
+            </div>
+                <img src="images/side order/spicy twist.jpg">
+                <p id="item-name">Spicy Twist</p>
+                <p id="item-price">Price: Rs 50</p>
+          </div>
+          <div id="item-card">
+            <div id="card-top">
+                <i class="fa fa-star" id="rating">4.3</i>
+            </div>
+                <img src="images/side order/veg pocket.jpg">
+                <p id="item-name">Veg Pocket</p>
+                <p id="item-price">Price: Rs 60</p>
+          </div>
+<!-----------------------------Shakes---------------------------->
+<div id="shakes" class="d-shakes">
+  <p id="category-name">Shakes</p>
+  <div id="item-card">
+    <div id="card-top">
+        <i class="fa fa-star" id="rating">4.3</i>
+    </div>
+        <img src="images/shake/vanilla shake.jpg">
+        <p id="item-name">Vanilla Shake</p>
+        <p id="item-price">Price: Rs 60</p>
+  </div>   
+  <div id="item-card">
+    <div id="card-top">
+        <i class="fa fa-star" id="rating">4.3</i>
+    </div>
+        <img src="images/shake/strawberry shake.jpg">
+        <p id="item-name">Strawberry Shake</p>
+        <p id="item-price">Price: Rs 60</p>
+  </div>
+  <div id="item-card">
+    <div id="card-top">
+        <i class="fa fa-star" id="rating">4.3</i>
+    </div>
+        <img src="images/shake/butter scotch shake.jpg">
+        <p id="item-name">Butterscotch Shake</p>
+        <p id="item-price">Price: Rs 70</p>
+  </div>
+  <div id="item-card">
+    <div id="card-top">
+        <i class="fa fa-star" id="rating">4.3</i>
+    </div>
+        <img src="images/shake/chocolate shake.jpg">
+        <p id="item-name">Chocolate Shake</p>
+        <p id="item-price">Price: Rs 80</p>
+  </div>
+  <div id="item-card">
+    <div id="card-top">
+        <i class="fa fa-star" id="rating">4.3</i>
+    </div>
+        <img src="images/shake/cold coffee.jpg">
+        <p id="item-name">Cold Coffee</p>
+        <p id="item-price">Price: Rs 80</p>
+  </div>
+</div>
+</section>
+
+<!------------------------------------Blog Section----------------->
+<section id="blog" class="blog">
+  <h4>Latest Blog</h4>
+  <div class="inner-blog">
+      <div class="blog-content">
+          <div class="in-blog">
+              <div class="im">
+                  <img src="Blog-1.jpg" alt="img">
+                  <div class="in-blog-icon">
+                      <a href="#"><i class="fas fa-calendar"></i>20th June 2023</a>
+                      <a href="#"><i class="fas fa-user"></i>Admin</a>
+                  </div>
+
+              </div>
+              <div class="in-blog-content">
+                  <h2>Pizza is too Good.</h2>
+                  <p>If you're a cheese enthusiast, you've come to the right place. </p>
+                  <p> Our pizzas are generously topped with a melty, gooey layer of cheese that's simply heavenly.</p>
+                  <button class="btn">Read More</button>
+              </div>
+          </div>
+      </div>
+      <div class="blog-content">
+          <div class="in-blog">
+              <div class="im">
+                  <img src="Blog-2.jpg" alt="img">
+                  <div class="in-blog-icon">
+                      <a href="#"><i class="fas fa-calendar"></i>20th June 2023</a>
+                      <a href="#"><i class="fas fa-user"></i>Admin</a>
+                  </div>
+
+              </div>
+              <div class="in-blog-content">
+                  <h2>Amazing Burger,Best Quality</h2>
+                  <p>Whether you're celebrating, including,</p><p> or just satisfying your burger cravings,</p>
+                  
+                  <p>   we have the perfect burger</p><p> waiting for you.</p>
+                  <button class="btn">Read More</button>
+              </div>
+          </div>
+      </div>
+      <div class="blog-content">
+          <div class="in-blog">
+              <div class="im">
+                  <img src="Blog-3.jpg" alt="img">
+                  <div class="in-blog-icon">
+                      <a href="#"><i class="fas fa-calendar"></i>20th June 2023</a>
+                      <a href="#"><i class="fas fa-user"></i>Admin</a>
+                  </div>
+
+              </div>
+              <div class="in-blog-content">
+                  <h2>Yummy Kullad Pizza, We Loved It.</h2>
+                  <p>Prepare to be amazed as blend the best of traditional flavors with a modern twist. Our Kullad Pizza starts with the freshest, locally sourced ingredients, ensuring each bite bursts with flavor.</p>
+                  <button class="btn">Read More</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-------------------------------------------contact Section-------------->
+<footer class="contact" id="contact">
+  <div class="contact-sec">
+      <div class="contact-inner">
+          <div class="contact-inner-col">
+              <img src="shef.jpg" alt="img" class="image">
+          </div>
+          <div class="contact-inner-col">
+              <h1>Contact US&nbsp;<i class="fas fa-paper-plane"></i></h1>
+              <p>500 Circular Road, Muzaffarnagar, UP  123-456-7890
+              </p>
+              <p>We Want To Hear From You, Write Us:</p>
+              <form action="#" id="" method="get">
+                  <input type="text" name="myName" id=" " placeholder="Please Enter Your Name" required>
+                  <input type="email" name="myEmail" id=" " placeholder="Please Enter Your Email" required>
+                  <input type="phone" name="myPhone" id=" " placeholder="Please Enter Your Phone no" required>
+                  <textarea name="" id="" cols="10" rows="8"></textarea>
+                  <button class="btn">Submit</button>
+              </form>
+          </div>
+      </div>
+      
+      <div class="copyright">
+          <p>Design By&copy; Aishwarya Thakur</p>
+          <div class="social">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest"></i>
+              <i class="fab fa-google-plus"></i>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!------------------------------java script---------------------------------->
+<script src="/index.js" type="module"></script>
+
+<script>
+  let searchbtn = document.querySelector('#search');
+  let searchfrm = document.querySelector('.head .search-bar');
+  searchbtn.onclick = () => {
+    searchfrm.classList.toggle('active');
+  
+}
+let menu = document.querySelector('.head .navbar');
+document.querySelector('#bars').onclick = () => {
+    menu.classList.toggle('active');
+}
+</script>
+
+</html>
